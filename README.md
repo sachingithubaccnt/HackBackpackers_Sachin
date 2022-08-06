@@ -23,7 +23,7 @@ NA
 
 Steps
 
-1. pyhton process_sql.py
+1. python process_sql.py
 
 2. 
  
