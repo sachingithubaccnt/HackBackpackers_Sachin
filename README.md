@@ -2,15 +2,18 @@
 
 Problem Statement 1 - Lineage problem statement
 
+An SQL Statement will be passed to the Python function that trace the complete lineage and produce the originating table for each output column of the input query.
+
 # Description
 
-<Write some description for your solution>
+We are passing the entirre SQL query and find the Inner query first and extracting the Table name along with the ALIAS name from Subquery. For this use case we have considered two SUB Query so extracting the Table name and Aliasing respectively. 
+Later on we are also parsing the outer Queryy to extract the column names.
+Finally merging the output of Inner Query along with output Query Column name and producing the output
 
  
 
 # Prerequisite
-
-<Write any prerequisites needed to run your solution>
+NA
 
  
 
@@ -20,7 +23,7 @@ Problem Statement 1 - Lineage problem statement
 
 Steps
 
-1. 
+1. pyhton process_sql.py
 
 2. 
  
